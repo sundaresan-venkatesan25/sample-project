@@ -1,4 +1,4 @@
-### About the project 
+## About the project 
 
 Implementing a minor use case where recursive react components prove to be a worthy solution . 
 
