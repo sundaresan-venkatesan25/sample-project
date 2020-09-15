@@ -1,3 +1,15 @@
+### About the project 
+
+Implementing a minor use case where recursive react components prove to be a worthy solution . 
+
+## About the component
+
+The component `list` is a recursive component that calls itself based on certain conditions . 
+
+It also makes an network call from which ever level it is called from and based on the response(All api calls are mocked) it renders sublist with further more values.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
