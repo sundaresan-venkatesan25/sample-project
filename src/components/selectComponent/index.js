@@ -5,9 +5,11 @@ import List from '../../components/list';
 export default function SelectComponent(props) {
   const { options } = props;
   const [ displayList, toggledisplay ] = useState(false);
+  const [ selectedOptions, update ] = useState({});
   function toggledisplayList(e) {
     e.preventDefault();
     toggledisplay(!displayList);
+    update({});
   }
 
   return (
@@ -15,7 +17,8 @@ export default function SelectComponent(props) {
       <Trigger onClick={toggledisplayList}>SITE OPTIONS</Trigger>
         <List options={options}
         displayList={displayList}
-        nextLevelOpen={true}/>
+        selectedOptions={selectedOptions}
+        onChange={(selectedOptions) => update(selectedOptions)}/>
     </div>
   )
 }

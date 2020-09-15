@@ -3,17 +3,17 @@
    "entries":[
       {
          "id":"1",
-         "name":"floor room 1",
+         "name":"Junk room 1",
          "children":""
       },
       {
          "id":"2",
-         "name":"SNN floor room 2 ",
+         "name":"Junkroom 2 ",
          "children":""
       },
       {
          "id":"3",
-         "name":"SNN floor room 3",
+         "name":"Junk room 3",
          "children":""
       }
    ]

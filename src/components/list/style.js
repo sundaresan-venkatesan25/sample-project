@@ -5,11 +5,12 @@ export const UIList = styled.div`
     list-style: none;
     padding: 0;
     width: 200px;
+    background: white;
     li {
       width: 100%;
       margin: 4px 0;
       border : 1px solid #1115;
-      &:hower {
+      &:hover {
         background: #1115;
       }
     }
@@ -33,9 +34,19 @@ export const Child = styled.span`
   float: right;
 `;
 
+export const ChildButton = styled.span`
+  float: right;
+  background: transparent;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+`;
+
+
 export const Trigger = styled.button`
-  background: white;
   display: block;
+  background: transparent;
   padding: 8px;
   margin: 0px auto;
   width: 100%;
