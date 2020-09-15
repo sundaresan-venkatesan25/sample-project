@@ -1,0 +1,30 @@
+{
+   "level_name":"zone",
+   "entries":[
+      {
+         "id":"1",
+         "name":"SNN building 2-  1",
+         "children":"floor"
+      },
+      {
+         "id":"2",
+         "name":"SNN building 2 - 2 ",
+         "children":"floor"
+      },
+      {
+         "id":"3",
+         "name":"SNN building 2 - 3",
+         "children":""
+      },
+      {
+         "id":"4",
+         "name":"SNN building 2 - 4",
+         "children":""
+      },
+      {
+         "id":"5",
+         "name":"SNN building 2 - 5",
+         "children":""
+      }
+   ]
+}

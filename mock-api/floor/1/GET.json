@@ -1,0 +1,20 @@
+{
+   "level_name":"room",
+   "entries":[
+      {
+         "id":"1",
+         "name":"building room 1",
+         "children":""
+      },
+      {
+         "id":"2",
+         "name":"SNN building room 2 ",
+         "children":""
+      },
+      {
+         "id":"3",
+         "name":"SNN building room 3",
+         "children":""
+      }
+   ]
+}
